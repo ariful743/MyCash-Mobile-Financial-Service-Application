@@ -102,14 +102,6 @@ java -cp "bin;lib/mysql-connector-java-8.0.20.jar" app.SwingMain
     - Cash Out/In requests go to the "Pension Requests" tab of the specified Agent.
     - The Agent must login to "Approve" or "Reject" them.
 
----
-
-## 🔐 Credentials (Default)
-If the database password prompt appears, the default credentials in `DatabaseConnection.java` are:
-- **User**: `root`
-- **Password**: `1234` (or empty string `""` depending on configuration)
-
----
 
 ## 📂 Project Structure
 ```
